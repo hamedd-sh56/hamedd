@@ -39,7 +39,7 @@ body{
     margin-right: auto;
 }
 .logo img{
-    width: 150ox;
+    width: 150px;
     height: 150px;
 }
 .content{
@@ -73,3 +73,21 @@ body{
     font-style: italic;
 }
 
+.rotate img {
+    margin-top: 100px;
+    width: 200px;
+    height: 200px;
+	-moz-transition: all 0.8s ease-in-out;
+	-webkit-transition: all 0.8s ease-in-out;
+	-o-transition: all 0.8s ease-in-out;
+	-ms-transition: all 0.8s ease-in-out;
+	transition: all 0.8s ease-in-out;
+}
+
+.rotate img:hover {
+	-moz-transform: rotate(360deg);
+	-webkit-transform: rotate(360deg);
+	-o-transform: rotate(360deg);
+	-ms-transform: rotate(360deg);
+	transform: rotate(360deg);
+}
